@@ -3,9 +3,14 @@
  */
 package ProjectEuler
 
+import FiboEvenSum
 import MultiplesOf3and5
 
 fun main(args: Array<String>) {
     val multiplesOf3and5 = MultiplesOf3and5()
     multiplesOf3and5.solve(1000)
+
+    val fiboEvenSum = FiboEvenSum()
+    fiboEvenSum.solve(100000)
+
 }
